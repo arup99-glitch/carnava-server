@@ -15,6 +15,7 @@ const client = new MongoClient(uri, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
+console.log(uri)
 
 async function run() {
   try {
